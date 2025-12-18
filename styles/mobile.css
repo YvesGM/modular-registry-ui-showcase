@@ -1,0 +1,176 @@
+@media (max-width: 900px) {
+  .header_shell {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search_shell {
+    align-items: stretch;
+
+    width: 100%;
+    min-width: 0px;
+  }
+
+  .search_hint {
+    text-align: left;
+  }
+
+  .section_header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .entity_dialog_wrapper {
+    padding: 14px;
+  }
+
+  .stat_name {
+    min-width: 96px;
+  }
+}
+
+@media (max-width: 520px) {
+  .registry_list {
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  }
+
+  .page_title {
+    font-size: 20px;
+  }
+
+  .entity_arrow_arrow {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media (max-width: 380px) {
+  .content_limitation {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .search_input {
+    padding: 10px 10px;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .search_shell {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .registry_list {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+
+  .entity_card {
+    padding: 10px;
+    gap: 8px;
+    border-radius: 12px;
+  }
+
+  .entity_preview_image {
+    width: 72%;
+    height: 72%;
+  }
+
+  .page_title {
+    font-size: 18px;
+  }
+
+  .entity_dialog {
+    width: calc(100vw - 20px);
+    max-height: calc(100vh - 20px);
+    border-radius: 12px;
+    padding: 0;
+  }
+
+  .entity_dialog_preview_image {
+    width: 64%;
+  }
+
+  .entity_dialog_content {
+    min-height: 180px;
+    padding: 10px;
+  }
+
+  .stat_name {
+    min-width: 88px;
+  }
+
+  .evo_item img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .load_more_entities_button {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 320px) {
+  .registry_list {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  }
+
+  .brand_mark {
+    width: 32px;
+    height: 32px;
+  }
+
+  .page_title {
+    font-size: 16px;
+  }
+
+  .search_input {
+    padding: 8px 8px;
+    font-size: 14px;
+  }
+
+  .entity_card h3 {
+    font-size: 13px;
+  }
+
+  .entity_dialog_preview_image {
+    width: 58%;
+  }
+
+  .entity_dialog_arrow {
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .entity_dialog_single_tab {
+    padding: 8px 8px;
+    font-size: 10px;
+  }
+
+  .entity_dialog_content {
+    min-height: 150px;
+    padding: 8px;
+  }
+
+  .entity_dialog_preview_image_container {
+    min-height: 180px;
+  }
+
+  .evo_item {
+    padding: 8px;
+    gap: 8px;
+  }
+
+  .evo_item img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .stat_name {
+    min-width: 72px;
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description"
+    content="A professional, modular registry/explorer UI. Uses Pokémon data as demo dataset to showcase frontend structure, UI components, and data-driven rendering." />
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./styles/fonts.css">
+  <link rel="stylesheet" href="./styles/standart.css">
+  <link rel="stylesheet" href="./styles/registry-list.css">
+  <link rel="stylesheet" href="./styles/entity-dialog.css">
+  <link rel="stylesheet" href="./styles/loading-screen.css">
+  <link rel="stylesheet" href="./styles/mobile.css">
+
+  <link rel="icon" href="favicon">
+  <title>Modular Registry Showcase (Demo Dataset)</title>
+
+</head>
+
+<body onload="initRegistry()">
+  <!-- Global loader -->
+  <div class="loader_overlay hidden" id="global-loader" aria-live="polite" aria-busy="true">
+    <div class="global_loader" aria-hidden="true"></div>
+    <div class="loader_label">Loading data…</div>
+  </div>
+
+  <header class="viewport_mid">
+    <section class="content_limitation header_shell">
+      <div class="brand_block">
+        <div class="brand_mark" aria-hidden="true"></div>
+        <div class="brand_text">
+          <h1 class="page_title">Registry Showcase</h1>
+          <p class="page_subtitle">Modular data explorer UI • demo dataset</p>
+        </div>
+      </div>
+
+      <div class="search_shell" role="search" aria-label="Search registry">
+        <label class="sr_only" for="searching-input">Search</label>
+        <input type="text" id="searching-input" class="search_input" placeholder="Search entities (name or type)…"
+          autocomplete="off" />
+        <p class="search_hint" id="search-hint"></p>
+      </div>
+    </section>
+  </header>
+
+  <main class="viewport_mid">
+    <section class="content_limitation main_shell">
+      <div class="section_header">
+        <h2 class="section_title">Entity list</h2>
+        <p class="section_meta">Tip: Use at least 3 characters for search.</p>
+      </div>
+
+      <div class="registry_list" id="registry-list" aria-label="Entity cards"></div>
+
+      <div class="actions_row">
+        <button class="load_more_entities_button transform_transition" id="load-more-entities-button"
+          onclick="renderRegistryList()">
+          Load more
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="entity_dialog" id="entity-dialog" aria-label="Details panel">
+    <div class="loader_overlay small-loader hidden" id="dialog-loader" aria-live="polite" aria-busy="true">
+      <div class="global_loader small" aria-hidden="true"></div>
+      <div class="loader_label small">Loading details…</div>
+    </div>
+
+    <div id="entity-dialog-wrapper" class="entity_dialog_wrapper"></div>
+  </dialog>
+
+  <footer class="viewport_mid">
+    <section class="content_limitation footer_shell">
+      <div class="footer_left">
+        <div class="footer_title">Demo & legal</div>
+        <div class="footer_text">
+          This project is a technical UI demo. It uses Pokémon names/data as <strong>sample dataset</strong> (via public
+          APIs).
+          No affiliation with Nintendo / The Pokémon Company.
+        </div>
+      </div>
+      <div class="footer_right">
+        <div class="footer_badge">Vanilla HTML • CSS • JS</div>
+      </div>
+    </section>
+  </footer>
+
+  <script src="./scripts/objects.js"></script>
+  <script src="./scripts/functions.js"></script>
+  <script src="./scripts/async-functions.js"></script>
+  <script src="./scripts/templates.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

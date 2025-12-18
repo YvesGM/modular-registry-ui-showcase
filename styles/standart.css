@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg);
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--panel);
+}
+
+.entity_dialog_content,
+.evo_children,
+.registry_list,
+.entity_dialog_preview_image_container {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+.transform_transition {
+  transition: transform .12s ease, opacity .12s ease;
+}
+
+.hidden {
+  display: none !important;
+}
