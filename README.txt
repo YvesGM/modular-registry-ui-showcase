@@ -16,7 +16,7 @@ The goal of this project is to demonstrate:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-This repository serves as a visual and architectural reference, not as a production-ready application.
+This repository demonstrates a modular frontend architecture focused on scalability, maintainability, and reusable UI patterns.
 -Tech Stack
 -HTML
 -CSS
