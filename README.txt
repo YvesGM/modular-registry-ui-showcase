@@ -48,8 +48,6 @@ This project is intended as...
 ...a frontend architecture reference
 ...a demonstration of interactive UI concepts
 
-It is not intended to be used as a complete product without further customization.
-
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 License:
@@ -57,3 +55,10 @@ This project is licensed under the MIT License.
 
 Contact:
 For custom implementations, integrations, or commercial projects, please reach out via the appropriate platform.
+
+
+Screenshots:
+![Overview](screenshots/overview.png)
+![Main](screenshots/main.png)
+![Stats](screenshots/stats.png)
+![Evo-Chain](screenshots/evo_chain.png)
