@@ -1,63 +1,38 @@
-Modular Registry & Data Explorer
-Frontend UI Showcase
+# Modular API-Driven Frontend Architecture
 
-Overview:
-This project is a frontend-only UI showcase demonstrating a modular registry combined with an interactive data explorer.
-It is designed to showcase clean frontend architecture, reusable UI patterns, and interactive data-driven components without relying on backend logic or server-side integrations.
+## Overview
+This project demonstrates a modular, API-driven frontend architecture designed for scalable and reusable data interfaces.
+The system separates data handling from UI components, allowing different REST APIs to be integrated without modifying core interface logic.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Architecture Principles
+- Clear separation between structure, styling, and logic
+- Decoupled data mapping layer
+- Modular component structure
+- Dynamic data rendering
+- Reusable dialog and filtering systems
 
-Purpose:
-The goal of this project is to demonstrate:
--Modular frontend structure
--Interactive UI components
--Data exploration and registry-style layouts
--Clean, maintainable frontend code
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-This repository demonstrates a modular frontend architecture focused on scalability, maintainability, and reusable UI patterns.
--Tech Stack
+## Technology Stack
 -HTML
 -CSS
 -JavaScript
 
->>>No frameworks, backend services, databases, or build tools are used.<<<
+No external frameworks or backend services are used. The focus lies entirely on frontend architecture and structural design.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Use Cases
+The architectural approach is suitable for:
+- Data dashboards
+- Admin interfaces
+- API-driven web applications
+- Structured content systems
 
-Features:
--Modular registry layout
--Interactive data exploration UI
--Dynamic UI updates
--Responsive frontend design
--Clean separation of structure, styling, and logic
+## Notes
+This project demonstrates architectural structure only.
+Displayed datasets are used for demonstration purposes.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## License:
+- MIT License
 
-Important Notes!
-This is a frontend-only project.
-No backend, authentication, database, or real API integrations are included.
-Data sources are used for demonstration purposes only.
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Usage:
-This project is intended as...
-...a UI showcase
-...a frontend architecture reference
-...a demonstration of interactive UI concepts
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-License:
-This project is licensed under the MIT License.
-
-Contact:
-For custom implementations, integrations, or commercial projects, please reach out via the appropriate platform.
-
-
-Screenshots:
+## Screenshots:
 ![Overview](screenshots/overview.png)
 ![Main](screenshots/main.png)
 ![Stats](screenshots/stats.png)
